@@ -419,6 +419,11 @@ footer .footer-below {
     outline: 0;
 }
 
+#profile {
+    border-radius: 100%;
+    width: 40%;
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -490,7 +495,15 @@ footer .footer-below {
 }
 
 #resume {
+    display: flex;
+    justify-content: center;
+
     color: white;
     align-items: center;
     
+}
+
+ul {
+    display: flex;
+    justify-content: center;
 }
