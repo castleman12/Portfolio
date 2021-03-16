@@ -420,8 +420,11 @@ footer .footer-below {
 }
 
 #profile {
-    border-radius: 100%;
-    width: 40%;
+    border-radius: 40%;
+
+    width: 20%;
+
+    
 }
 
 .portfolio-modal .modal-content {
@@ -504,12 +507,21 @@ footer .footer-below {
 }
 
 ul {
-    display: flex;
-    justify-content: center;
+    
+    margin-left: 85px;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    vertical-align: top;
 }
 
 #center {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+#name, #email, #message {
+    border: solid gray 2.5px;
+    padding: 10px 20px 10px 20px;
 }
